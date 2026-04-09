@@ -221,7 +221,7 @@ CREATE TABLE IF NOT EXISTS `YOUR_PROJECT_ID.focus_db.session_logs` (
             </div>
 
             <h5 style="font-size: 16px; margin-bottom: 5px;">Quiz Agent</h5>
-<pre><code>cd /quiz-agent
+<pre><code>cd quiz-agent
 gcloud run deploy quiz-api --source . --region us-central1 --allow-unauthenticated --memory 2Gi --min-instances 1</code></pre>
             <p>👉 After deployment, copy the URL and update in <strong>hearing-agent</strong>:</p>
 <pre><code>QUIZ_AGENT_URL = "https://your-quiz-api-url.com/api/quiz"</code></pre>
